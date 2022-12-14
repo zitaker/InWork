@@ -1,0 +1,54 @@
+ссылки:
+https://www.youtube.com/watch?v=3vfum74ggHE
+https://www.youtube.com/watch?v=0Owmz8VucBk
+https://www.youtube.com/watch?v=FyTL1bnUx5I&list=PLA0M1Bcd0w8xO_39zZll2u1lz_Q-Mwn1F&index=3
+
+как узнать когда нужно подключать сторонние библиотеки python
+как определить ошибку в коде python
+pep 8
+tkinter
+pyside
+pyqt
+django
+https://pythonworld.ru/uploads/mementopython3-russian.pdf
+
+commands:
+.\venv\Scripts\activate
+
+pip install django 
+django-admin startproject my_site1
+pip list  
+django-admin   
+django-admin startproject "название проекта"
+cd coolsite
+python manage.py runserver
+или другой порт 
+python manage.py runserver 4000
+такая команда скорее всего на локальном ПК не запуститься
+python manage.py runserver 192.168.1.1:4000 
+python manage.py startapp women
+
+python manage.py startapp realtyestateapp
+
+
+
+
+from women.views import *    импорт всего файла
+
+  {% block content %}   - выбор места для шаблона открывающий 
+  {% endblock %}    - выбор места для шаблона закрывающий
+
+    {% extends "путь, пример пути 'main/layout.html' " %}    - код для ссылки на шаблон открывающий  
+    {% endblock %}  - выбор места для шаблона закрывающий
+
+    {% include "путь, пример пути 'main/test.html' " %}     - вставка объекта
+
+    {% load static %}   - подключение к папке ( пример static)
+
+https://fontawesome.com/icons/comment-code?s=light&f=classic
+https://www.youtube.com/watch?v=4U0xJrNCKvk&list=PLDyJYA6aTY1nZ9fSGcsK4wqeu-xaJksQQ&index=6
+
+python -m pip install flake8
+7
+https://ru.hexlet.io/courses/python-basics
+https://app.slack.com/client/T019FJ8M43H/C02G2LKDWD7/user_profile/U01AJENN2H5
