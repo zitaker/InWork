@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=4U0xJrNCKvk&list=PLDyJYA6aTY1nZ9fSGcsK4wqeu-xaJk
 
 python -m pip install flake8
 
-https://ru.hexlet.io/courses/python-basics
+    https://ru.hexlet.io/courses/python-basics
 https://app.slack.com/client/T019FJ8M43H/C02G2LKDWD7/user_profile/U01AJENN2H5
 
 number_brothers название для переменной
