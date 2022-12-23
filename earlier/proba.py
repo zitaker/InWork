@@ -1,27 +1,13 @@
-# import string
-#
-# def has_special_chars(str):
-#     # Проверяет содержание специальных символов в строке
-#     return any(ch for ch in str if ch in string.punctuation)
-# #
-# print(has_special_chars(''))
-#
-# # def is_strong_password(password):
-# #     length = len(password)
-# #     # Скобки задают приоритет. Понятно, что к чему относится.
-# #     return (length > 8 and length < 20) or has_special_chars(password)
-# #
-# # print(is_strong_password(''))
-# # print(is_strong_password('1'))
-# # print(is_strong_password('1234567890'))
-# # print(is_strong_password('123456789012345678901234567890'))
-# #
-# # print(is_strong_password(''))
-# # print(is_strong_password('q'))
-# # print(is_strong_password('qwertyuiop'))
-# # print(is_strong_password('qwertyuiopqwertyuiopqwertyuiop'))
-
-result = not True or False
+def string_or_not(or_not):
+    return or_not and 'yes' or 'no'
+    print(string_or_not())
 
 
-name = input('это конец') # это для просмотра открывающегося окна
+
+string_or_not('Hexlet')  # yes
+string_or_not(10)  # no
+string_or_not('')  # yes
+string_or_not(False)  # no
+
+
+name = input('это конец')
