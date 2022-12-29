@@ -61,13 +61,16 @@ def normalize_url(url):
     #     return 'https://' + url
     # elif 'http://' in url:
     #     return 'https://' + url[7:]
-    url = url[0:]
-    return url if 'https://' in url else 'https://' + url[7:]
+
+    # url = url[0:]
+    if url[:7] != 'http://' and 'https://':
+        return 'https://' + url
+    return url if 'https://' in url else ('https://' + url[7:])
 
 
 
-print(normalize_url('hello'))
-print(normalize_url('http://hello1'))
-print(normalize_url('https://hello2'))
+print(normalize_url('yandex.ru'))
+print(normalize_url('http://yandex.ru'))
+print(normalize_url('https://yandex.ru'))
 name = input('это конец')
 # если в первых 7 символах есть url то оставляем url, если url нет то добавляем его
