@@ -1,23 +1,29 @@
-def my_substr(string, current_char):
+# from symbols import is_vowel
+#
+#
+# def count_vowels(text):
+#     result = 0
+#     for char in text:
+#         if is_vowel(char):
+#             result += 1
+#     return result
 
-    i = 0
-    reversed_string = '' #  инициализируем строку, куда будем записывать результат
-    current_char = string[i]    #   берем из строки символ по текущему индексу
-    reversed_string = reversed_string + current_char #  записываем в строку-результат новое значение: текущая строка-результат + новый символ
+from symbols import is_vowel
+
+def  count_vowels(words):
+    words_1 = 0
+    for words_2 in words:
+        if is_vowel(words_2):
+            words_1 += 1
+    return words_1
+
+print(is_vowel('a'))      # True
+print(is_vowel('n'))      # False)
+
+print(count_vowels('One'))  # 2
+print(count_vowels('London is the capital of Great Britain'))  # 13
 
 
-    while i <= len(string): #   условие: повторяем тело цикла, пока текущий индекс не дошел — до последнего символа
-        i = i + 1   #   обновляем счетчик
-
-    return reversed_string  #   когда цикл завершился, возвращаем строку-результат
+name = input('это конец!!!')
 
 
-
-
-string = 'If I look back I am lost'
-
-print(my_substr(string, 2))  # => 'I'
-# print(my_substr(string, 7))  # => 'If I lo'
-
-
-name = input('это конец')
