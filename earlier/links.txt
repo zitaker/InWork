@@ -55,3 +55,5 @@ https://app.slack.com/client/T019FJ8M43H/C02G2LKDWD7/user_profile/U01AJENN2H5
 
 number_brothers название для переменной
 number_sisters название для переменной
+
+pip install kit
